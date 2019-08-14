@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>GoDataFeed_Services</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Copyrighted to Method Merchant</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>GoDataFeed Services</summary>
+    <description>GoDataFeed Services</description>
+    <notes>No Notes</notes>
+    <authors><author><name>GoDataFeedSupport</name><user>GoDataFeedSupport</user><email>support@godatafeed.com</email></author></authors>
+    <date>2012-01-30</date>
+    <time>17:53:57</time>
+    <contents><target name="magelocal"><dir name="GoDataFeed"><dir name="Services"><dir name="Model"><dir name="Catalog"><dir name="Product"><file name="Api.php" hash="5c1becafb604af858b0c857cdfb7ce10"/></dir></dir></dir><dir name="etc"><file name="api.xml" hash="565bc8cb3899d89f37c0cc27008958f4"/><file name="config.xml" hash="8ecde4bbb6d08c822c1173f279d21bca"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="GoDataFeed_Services.xml" hash="43db0e2dd6a412462d52e77143ec5cdc"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

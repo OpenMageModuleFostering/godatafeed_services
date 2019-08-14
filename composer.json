@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/GoDataFeed_Services",
+    "type": "magento-module",
+    "license": "Copyrighted-to-Method-Merchant",
+    "homepage": "",
+    "description": "GoDataFeed Services",
+    "authors": [
+    {
+        "name": "GoDataFeedSupport",
+        "email": "support@godatafeed.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

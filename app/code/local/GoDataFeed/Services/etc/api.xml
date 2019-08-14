@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <api>
+        <resources>
+            <catalog_product translate="title" module="catalog">
+                <title>GoDataFeed Product API</title>
+                <model>catalog/product_api</model>
+				<acl>catalog/product</acl>
+				<methods>
+					<count translate="title" module="catalog">
+						<title>Retrieve product count</title>
+						<acl>catalog/product/info</acl>
+					</count>
+					<extendedList translate="title" module="catalog">
+						<title>Retrieve products list by filters with extended attributes</title>
+						<acl>catalog/product/info</acl>
+					</extendedList>
+				</methods>
+            </catalog_product>
+        </resources>
+        <!--<resources_alias>-->
+            <!--<product>catalog_product</product>-->
+        <!--</resources_alias>-->
+		<!--TODO FAULTS-->
+    </api>
+</config>
